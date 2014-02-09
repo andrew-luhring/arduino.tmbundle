@@ -100,11 +100,13 @@
 					}
 					&lt;/style&gt;
 						&lt;pre&gt; "
-			
+						
 			cd $TM_DIRECTORY
 			/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/make -e -f "$TM_BUNDLE_SUPPORT/Makefile"
 			
-			echo " &lt;/pre&gt;
+	
+			echo "
+					&lt;/pre&gt;
 					&lt;script type='text/javascript'&gt;
 					//====================================================
 					//	globals
@@ -255,8 +257,7 @@
 					setTimeout (totallyReady, 10);
 
 			"
-			
-		</string>
+			</string>
         <key>input</key>
         <string>none</string>
         <key>keyEquivalent</key>
